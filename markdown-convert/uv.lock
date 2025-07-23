@@ -1,0 +1,26 @@
+version = 1
+revision = 2
+requires-python = ">=3.12"
+
+[[package]]
+name = "aspose-words"
+version = "25.7.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/aa/be/640288a1e13ecf8fea352f41f46d8c7ebafb97bf676a0a70ca7572aeb5ea/aspose_words-25.7.0-py3-none-macosx_10_14_x86_64.whl", hash = "sha256:28b8064c0e693af87a1a7c6875a6c6d4291f93281715b76c53c15c25b4bf5631", size = 86377191, upload-time = "2025-07-12T15:20:32.911Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/d9/fda390f7d92b58241d148a55509d28c5d683cecbe3aa136362f90731c975/aspose_words-25.7.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:f58509b502ac233eb4015e9b82ff713ad902490df65e340fb529de39cb156180", size = 73343804, upload-time = "2025-07-12T15:20:47.427Z" },
+    { url = "https://files.pythonhosted.org/packages/b7/37/ff76dfb5adb2261785764ff1169586ba1c14554b2ccd641cfe77a11e7a8a/aspose_words-25.7.0-py3-none-manylinux1_x86_64.whl", hash = "sha256:f241333ae052d96a9600819effa6106680c48bbd881bcac64b3cc93e8b9d0459", size = 90447139, upload-time = "2025-07-12T15:21:08.152Z" },
+    { url = "https://files.pythonhosted.org/packages/c7/67/53b745d10c103c300b7284e65266382b0728609d8da5d372f581ed592957/aspose_words-25.7.0-py3-none-win32.whl", hash = "sha256:4a432528674baf866aff3a331b9e7e7bf351f94618c4b757897224613568bc2a", size = 59869642, upload-time = "2025-07-12T15:21:19.815Z" },
+    { url = "https://files.pythonhosted.org/packages/06/10/7db647b4289a336dc8e67c81f6b9c308e383dc16ddb321267d18214a1929/aspose_words-25.7.0-py3-none-win_amd64.whl", hash = "sha256:8ca2b852bbb5e05c207ae994d30f677a551e39e0d9b19e5a58d2a889928dcbd7", size = 68333453, upload-time = "2025-07-12T15:21:32.017Z" },
+]
+
+[[package]]
+name = "markdown-convert"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "aspose-words" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "aspose-words", specifier = ">=25.7.0" }]
