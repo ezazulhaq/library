@@ -50,6 +50,10 @@ If no output directory is specified with `--output-dir`, the script will create 
 - `-r, --recursive`: Recursively process directories
 - `--overwrite`: Overwrite existing output files (by default, existing files are skipped)
 
+## Performance Notes
+
+**Note:** Extracting valid PDFs with text content will perform great, while PDFs with images will take time to extract due to OCR processing requirements.
+
 ## Requirements
 
 - Python 3.6+
